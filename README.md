@@ -49,12 +49,9 @@ Proje başarıyla çalıştığında [http://localhost:8000/docs](http://localho
 
 ## API Endpoints
 
-- **POST /items/:** Yeni bir öğe ekler.
-- **GET /items/:** Tüm öğeleri listeler.
+- **POST /products/:** Yeni bir öğe ekler.
+- **GET /products/:** Tüm öğeleri listeler.
 
-## Katkıda Bulunma
-
-Eğer projeye katkıda bulunmak istiyorsanız, lütfen bir çatal oluşturun ve özelliğinizi veya düzeltmenizi içeren bir çekme isteği gönderin.
 
 ## Lisans
 
