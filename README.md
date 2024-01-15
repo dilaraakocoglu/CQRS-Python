@@ -29,7 +29,7 @@ Projenin çalışması için Docker ve Docker Compose gereklidir. Aşağıdaki a
 1. Repoyu klonlayın:
 
     ```bash
-    git clone https://github.com/kullanici_adi/cqrs-proje.git
+    git clone
     cd cqrs-proje
     ```
 
