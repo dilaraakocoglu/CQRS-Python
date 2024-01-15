@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  write_db:
+    image: postgres:latest
+    container_name: write_db
+    environment:
+      POSTGRES_DB: write_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "5432:5432"
+
+  read_db:
+    image: postgres:latest
+    container_name: read_db
+    environment:
+      POSTGRES_DB: read_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_MASTER_SERVICE_NAME: write_db
+      POSTGRES_MASTER_HOST: write_db
+      POSTGRES_MASTER_PORT: 5432
+    ports:
+      - "5433:5432"
