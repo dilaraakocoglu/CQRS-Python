@@ -49,10 +49,6 @@ Proje başarıyla çalıştığında [http://localhost:8000/docs](http://localho
 
 ## API Endpoints
 
-- **POST /products/:** Yeni bir öğe ekler.
-- **GET /products/:** Tüm öğeleri listeler.
+- **POST /products/:** Yeni bir product ekler.
+- **GET /products/:** Tüm productları listeler.
 
-
-## Lisans
-
-Bu proje [MIT lisansı](LICENSE) altında lisanslanmıştır.
